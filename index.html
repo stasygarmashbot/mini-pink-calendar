@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mini Calendar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="wrap">
+    <div class="card" id="card">
+      <div class="top">
+        <button class="nav" id="prev" aria-label="Previous month">‹</button>
+        <div class="title">
+          <div class="month" id="monthLabel">January</div>
+          <div class="year" id="yearLabel">2026</div>
+        </div>
+        <button class="nav" id="next" aria-label="Next month">›</button>
+      </div>
+
+      <div class="dow" id="dow"></div>
+      <div class="grid" id="grid" aria-label="Calendar grid"></div>
+
+      <div class="bottom">
+        <button class="btn" id="todayBtn">Today</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
