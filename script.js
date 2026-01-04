@@ -7,21 +7,19 @@ const monthNames = [
 
 // 12 оттенков розового: от пудрового до чуть более насыщенного, без «кислоты»
 const palette = [
-  { accent:"#b8899a", soft:"#f1e4e8" }, // Jan
-  { accent:"#b17f93", soft:"#efe1e6" }, // Feb
-  { accent:"#a97188", soft:"#ecdde2" }, // Mar
-  { accent:"#a66e86", soft:"#eadbe0" }, // Apr
-  { accent:"#b18498", soft:"#efe2e7" }, // May
-  { accent:"#c09aaa", soft:"#f3e7eb" }, // Jun
-  { accent:"#b894a3", soft:"#f1e4e9" }, // Jul
-  { accent:"#ab7f93", soft:"#ede0e5" }, // Aug
-  { accent:"#9f6f84", soft:"#e9dadd" }, // Sep
-  { accent:"#a8768b", soft:"#ecdde1" }, // Oct
-  { accent:"#b08a9c", soft:"#efe3e7" }, // Nov
-  { accent:"#c1a0ae", soft:"#f4e9ed" }  // Dec
+  { accent:"#a8647b", soft:"#f0d8df" }, // Jan
+  { accent:"#9f5d75", soft:"#edd1d9" }, // Feb
+  { accent:"#95566f", soft:"#eacbd4" }, // Mar
+  { accent:"#91526b", soft:"#e8c7d1" }, // Apr
+  { accent:"#9b5f76", soft:"#edd2da" }, // May
+  { accent:"#b07489", soft:"#f1d9df" }, // Jun
+  { accent:"#a96a80", soft:"#eed4db" }, // Jul
+  { accent:"#9a5e75", soft:"#ebcfd7" }, // Aug
+  { accent:"#8d5268", soft:"#e7c8cf" }, // Sep
+  { accent:"#965a70", soft:"#ebcfd6" }, // Oct
+  { accent:"#a0687c", soft:"#efd6dd" }, // Nov
+  { accent:"#b07b8f", soft:"#f2dde3" }  // Dec
 ];
-
-
 const dowContainer = document.getElementById("dow");
 const grid = document.getElementById("grid");
 const monthLabel = document.getElementById("monthLabel");
